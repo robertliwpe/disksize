@@ -1,7 +1,7 @@
 # WP Engine WordPress Install File System Size Checker
 ### Note: this ONLY works with the WP Engine platform.
 
-Given that storage is only updated on a weekly basis on the WP Engine user portal and command line access on the WP Engine platform is restricted via an SSH gateway bastion host, users who wish to either programmatically retrieve this information, or retrieve on on demand will need to configure the following solution.
+Given that storage is only updated on a weekly basis on the WP Engine user portal and command line access on the WP Engine platform is restricted via an SSH gateway bastion host, users who wish to either programmatically retrieve this information, or retrieve it on demand will need to configure the following solution.
 
 ### Version 2.0 Released 
 
