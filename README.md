@@ -9,7 +9,7 @@ To clone simply run the following command either before or during deployment in 
 
 `git clone https://github.com/robertliwpe/disksize.git`
 
-Lastly, download the `dirsize.sh` file to your local machine and execute it in terminal/CLI (e.g. `./disksize.sh`)
+Lastly, download the `dirsize.sh` file to your local machine and execute it in terminal/CLI (e.g. `./disksize.sh`). This is loopable, ensure that you list installs separated by a space.
 If it is not correctly executing ensure you have already changed permissions of it with `chmod +x disksize.sh`
 
 If you have also deployed the `dirsize.php` file into the root directory of the WordPress install you can also access this information in browser e.g. `https://www.example.com/dirsize.php`
