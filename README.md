@@ -9,6 +9,8 @@ Version 2.0 is now able to fully function from your local terminal. As long as y
 
 ***Right Click to Download it: https://github.com/robertliwpe/disksize/raw/main/dirsizeauto.sh***
 
+It will also provide you the option to deposit a browser accessible web readout, an example can be found below.
+
 ### Version 1.0 Steps (Please Read First)
 
 Firstly, ensure that you have properly configured SSH Gateway access for your WP Engine account: https://wpengine.com/support/ssh-gateway/
