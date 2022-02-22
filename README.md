@@ -1,7 +1,7 @@
 # PHP Scripts to determine WordPress Install File System Size from WP CLI and via Browser
 ### Note: this ONLY works with the WP Engine platform.
 
-Given that storage is only updated on a weekly basis on the WP Engine user portal, users who wish to either programmatically retrieve this information, or retrieve on on demand will need to configure the following solution.
+Given that storage is only updated on a weekly basis on the WP Engine user portal and command line access on the WP Engine platform is restricted via an SSH gateway bastion host, users who wish to either programmatically retrieve this information, or retrieve on on demand will need to configure the following solution.
 
 Firstly, ensure that you have properly configured SSH Gateway access for your WP Engine account: https://wpengine.com/support/ssh-gateway/
 
