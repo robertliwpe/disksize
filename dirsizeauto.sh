@@ -47,7 +47,7 @@ confirm="yes"
 
 if [[ "$webversion" == "$confirm" ]]
 then
-	for i in $installist; do echo "Total File System Size for Install: $i" && ssh $i@$i.ssh.wpengine.net "cd ~/sites/$i && wget --quiet https://robertliwpe.wpengine.com/dirsizebytes && mv --force dirsizebytes dirsizebytes.php && wp eval-file ./dirsizebytes.php && rm ./dirsizebytes.php && wget --quiet https://robertliwpe.wpengine.com/dirsize && mv --force dirsize dirsize.php" && echo "Please access the web readout by visiting http://$i.wpengine.com/dirsize.php"; done
+	for i in $installist; do echo "Total File System Size for Install: $i" && ssh $i@$i.ssh.wpengine.net "cd ~/sites/$i && wget --quiet https://robertliwpe.wpengine.com/dirsizebytes && mv --force dirsizebytes dirsizebytes.php && wp eval-file ./dirsizebytes.php 2>/dev/null && rm ./dirsizebytes.php && wget --quiet https://robertliwpe.wpengine.com/dirsize && mv --force dirsize dirsize.php" && echo "Please access the web readout by visiting http://$i.wpengine.com/dirsize.php"; done
 else
-	for i in $installist; do echo "Total File System Size for Install: $i" && ssh $i@$i.ssh.wpengine.net "cd ~/sites/$i && wget --quiet https://robertliwpe.wpengine.com/dirsizebytes && mv --force dirsizebytes dirsizebytes.php && wp eval-file ./dirsizebytes.php && rm ./dirsizebytes.php"; done
+	for i in $installist; do echo "Total File System Size for Install: $i" && ssh $i@$i.ssh.wpengine.net "cd ~/sites/$i && wget --quiet https://robertliwpe.wpengine.com/dirsizebytes && mv --force dirsizebytes dirsizebytes.php && wp eval-file ./dirsizebytes.php 2>/dev/null && rm ./dirsizebytes.php"; done
 fi
