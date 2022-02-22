@@ -27,6 +27,6 @@ Lastly, download the `dirsize.sh` file to your local machine and execute it in t
 
 If you have also deployed the `dirsize.php` file into the root directory of the WordPress install you can also access this information in browser e.g. `https://www.example.com/dirsize.php`
 
-An example of the browser output can be found here: http://robertliwpe.wpengine.com/dirsize.php
+An example of the browser output can be found here: http://rlicons.wpengine.com/dirsize.php
 
 
