@@ -10,6 +10,6 @@ echo "Please list your installs with spaces between:"
 
 read installist 
 
-for i in $installist; do echo "Total File System Size for Install: $i" && ssh $i@$i.ssh.wpengine.net "cd ~/sites/$i &&  wp eval-file ./dirsizebytes.php" ; done
+for i in $installist; do echo "Total File System Size for Install: $i" && ssh $i@$i.ssh.wpengine.net "cd ~/sites/$i &&  wp eval-file ./dirsizebytes.php 2>/dev/null" ; done
 
 
