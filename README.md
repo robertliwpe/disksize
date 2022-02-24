@@ -5,7 +5,7 @@ Given that storage is only updated on a weekly basis on the WP Engine user porta
 
 ### Version 2.0 Released 
 
-Version 2.0 is now able to fully function from your local terminal. As long as you have set up your SSH Gateway to your WP Engine account correctly (refer below), and you have `chmod +x disksizeauto.sh` the file, simply execute, and it will loop through your installs to provide you file system size in Bytes.
+Version 2.0 is now able to fully function from your local terminal. As long as you have set up your SSH Gateway to your WP Engine account correctly (refer below), and you have applied `chmod +x disksizeauto.sh` to the file, simply execute the file itself, and it will loop through your installs to provide you file system size in Bytes.
 
 ***Right Click to Download it: https://github.com/robertliwpe/disksize/raw/main/dirsizeauto.sh***
 
